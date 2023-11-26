@@ -1,6 +1,6 @@
 [build]
   command = "composer install --ignore-platform-reqs"
-  publish = "public"
+  publish = "dist"
 
 [build.environment]
   PHP_VERSION = "8.0"
